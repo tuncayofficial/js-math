@@ -13,7 +13,15 @@ function calculate_obj_force(m, a){
    return F + " N"
 }
 
+function check_velocity_status(F1, F2){
+    if(F1-F2==0 || F2-F1==0){
+        return { status : true, message : "Constant" }
+    } else {
+        return { status : false, message : "Non-Constant" }
+    }
+}
+
 const quantities = { F, m1, m2, r }
-const functions = { calculate_force, calculate_obj_force }
+const functions = { calculate_force, calculate_obj_force, check_velocity_status }
 
 module.exports = { quantities, functions }
