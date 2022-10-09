@@ -1,5 +1,5 @@
 # js-math
-JS-Math is and advanced engine for calculating physics and geometry related problems, made by CodePlanet.
+JS-Math is an advanced engine for calculating physics and geometry related problems, made by CodePlanet.
 
 ## Physics
 Newton Laws, Velocity are included. In future, we will attempt to add more laws!
