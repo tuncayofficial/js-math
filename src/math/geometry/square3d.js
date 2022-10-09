@@ -1,6 +1,7 @@
 class Square3D{
-    constructor(side){
+    constructor(side, mass){
         this.side = side
+        this.mass = mass
     }
 
     perimeter(){

@@ -7,8 +7,8 @@ const forceQuantities = force.quantities
 const forceFunctions = force.functions
 
 let Square3D = require("./src/math/geometry/square3d")
-let square3d = new Square3D(5)
+let square3d = new Square3D(5, 5)
 
-let result = square3d.volume()
+let result = velocityFunctions.getS_momentum(0, 5, 6, "Positive")
 
 console.log(result)
