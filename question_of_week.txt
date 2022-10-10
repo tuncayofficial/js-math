@@ -4,4 +4,4 @@ Read the question, write code using our module functions and submit it!
 
 Question : 
  
-3 objects are given. The mass of one is 5 kilograms, and the other is 7 kilograms. 3. object is a cube. Find the ratio of the forces between the objects to the volume of the cube.
+3 objects are given. The mass of one is 5 kilograms, and the other is 7 kilograms, the distance between them is 10 meters. 3. object is a cube and the side is 5 meters. Find the ratio of the forces between the objects to the volume of the cube.

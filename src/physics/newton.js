@@ -5,12 +5,12 @@ const g = 10;
 function calculate_force(m1, m2, r){
     const G = 6.67 / 10e11;
     let F = (G * m1 * m2) /  (r*r)
-    return F + " N"
+    return F
 }
 
 function calculate_obj_force(m, a){
    let F = m*a
-   return F + " N"
+   return F
 }
 
 function check_velocity_status(F1, F2){
