@@ -10,6 +10,11 @@ class Square{
     area(side){
         return side^2
     }
+
+    diagonal(){
+        let result = Math.floor(this.side * Math.sqrt(2))
+        return "Nearly " + result
+    }
 }
 
 module.exports = Square

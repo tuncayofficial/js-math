@@ -7,12 +7,12 @@ class Circle{
 
     length(){
         let result = 2 * settings.pi * this.radius
-        return result
+        return "Nearly " + result
     }
 
     area(){
         let result = settings.pi * this.radius**2
-        return result
+        return "Nearly " + result
     }
 }
 
