@@ -1,4 +1,4 @@
-class Square3D{
+class Cube{
     constructor(side, mass){
         this.side = side
         this.mass = mass
@@ -17,4 +17,4 @@ class Square3D{
     }
 }
 
-module.exports = Square3D
+module.exports = Cube

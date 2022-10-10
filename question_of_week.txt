@@ -1,0 +1,7 @@
+Note : This .txt file represents a question for current week. Please submit your only main program file to jsmathgithub@gmail.com address.
+
+Read the question, write code using our module functions and submit it!
+
+Question : 
+ 
+3 objects are given. The mass of one is 5 kilograms, and the other is 7 kilograms. 3. object is a cube. Find the ratio of the forces between the objects to the volume of the cube.
