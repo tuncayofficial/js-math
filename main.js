@@ -13,6 +13,6 @@ let cube = new Cube(5)
 
 let result1 = calculate_force(5, 7, 10)
 let result2 = cube.volume()
-let result = result1/result2
+let result = result1/result2    
 
 console.log(result)
