@@ -1,10 +1,14 @@
 {
-  "name": "@toundjay/js-math",
+  "name": "@tuncayofficial/js-math",
+  "repository": "https://github.com/tuncayofficial/js-math",
   "version": "0.0.2",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "node test.js"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",

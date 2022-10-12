@@ -1,6 +1,7 @@
 const velocity = require("./src/physics/velocity.js")
 const force = require("./src/physics/newton")
 const settings = require("./settings.json");
+const mathjs = require("mathjs")
 const Cube = require("./src/math/geometry/cube.js");
 
 let velocityQuantities = velocity.quantities;

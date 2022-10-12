@@ -21,6 +21,11 @@ function check_velocity_status(F1, F2){
     }
 }
 
+function calculate_friction(coefficient, m, alpha){
+    const g = 10;
+    
+}
+
 const quantities = { F, m1, m2, r }
 const functions = { calculate_force, calculate_obj_force, check_velocity_status }
 
