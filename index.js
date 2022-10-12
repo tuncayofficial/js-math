@@ -1,6 +1,6 @@
-const Cube = require("./src/math/cube")
-const Square = require("./src/math/square")
-const Circle = require("./src/math/circle")
+const Cube = require("./src/math/geometry/cube")
+const Square = require("./src/math/geometry/square")
+const Circle = require("./src/math/geometry/circle")
 
 const velocity = require("./src/physics/velocity")
 const newton = require("./src/physics/newton")
