@@ -1,7 +1,7 @@
 {
   "name": "@tuncayofficial/js-math",
   "repository": "https://github.com/tuncayofficial/js-math",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "main.js",
   "scripts": {
