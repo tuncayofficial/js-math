@@ -1,7 +1,19 @@
+const settings = require("../../../settings.json")
+
 class Cube{
     constructor(side, mass){
         this.side = side
         this.mass = mass
+        this.environment = settings.environment
+        if(settings.environment[1].objects === false){
+            console.log("Please create a Space first!")
+        } else {
+        settings.environment[2].props.push({
+            prop : "Cube",
+            side : this.side,
+            mass : this.mass
+        })
+        }
     }
 
     perimeter(){
