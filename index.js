@@ -19,5 +19,6 @@ module.exports = {
     velocity,
     newton,
     Space,
-    showSettings
+    showSettings,
+    settings
 }
