@@ -1,12 +1,19 @@
 {
-  "name": "js-math",
-  "version": "1.0.0",
+  "name": "@tuncayofficial/js-math",
+  "repository": "https://github.com/tuncayofficial/js-math",
+  "version": "0.0.5",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^11.3.0"
+  }
 }
