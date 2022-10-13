@@ -1,3 +1,5 @@
+const math = require("mathjs")
+
 const G = 6.67 / 10e11;
 let F, m1, m2, r, a;
 const g = 10;
@@ -23,7 +25,8 @@ function checkVelocity(F1, F2){
 
 function objectFriction(coefficient, m, alpha){
     const g = 10;
-    
+    const formula = coefficient * m * g * math.evaluate(`sin(${alpha} deg)`)
+    return formula
 }
 
 const quantities = { F, m1, m2, r }
