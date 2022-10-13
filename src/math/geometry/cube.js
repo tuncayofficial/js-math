@@ -9,7 +9,7 @@ class Cube{
     }
 
     area(){
-        return this.side**2
+        return 6 * (this.side**2)
     }
 
     volume(){
