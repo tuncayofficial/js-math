@@ -1,8 +1,8 @@
 const settings = require("../../../settings.json")
 
-class Cube{
-    constructor(side, mass){
-        this.side = side
+class Sphere{
+    constructor(radius, mass){
+        this.radius = radius
         this.mass = mass
         this.environment = settings.environment
         if(settings.environment[1].objects === false){
@@ -10,27 +10,20 @@ class Cube{
         }
 
         if(settings.environment[0].space < this.side**3){
-            console.log({ status : "Error", message : "Volume of cube is higher than space!" })
+            console.log({ status : "Error", message : "Volume of sphere is higher than space!" })
             return
         }
         settings.environment[2].props.push({
-            prop : "Cube",
-            side : this.side,
+            prop : "Sphere",
+            radius : this.radius,
             mass : this.mass
         })
     }
 
-    perimeter(){
-        return this.side*4
-    }
-
-    area(){
-        return 6 * (this.side**2)
-    }
-
     volume(){
-        return this.side**3
+        let formula = 4/3 * settings.pi * this.radius**3
+        return Math.floor(formula)
     }
 }
 
-module.exports = Cube
+module.exports = Sphere

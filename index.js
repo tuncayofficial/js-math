@@ -1,4 +1,5 @@
 const Cube = require("./src/math/geometry/cube")
+const Sphere = require("./src/math/geometry/sphere")
 const Square = require("./src/math/geometry/square")
 const Circle = require("./src/math/geometry/circle")
 const settings = require("./settings.json")
@@ -14,6 +15,7 @@ function showSettings(){
 
 module.exports = {
     Cube,
+    Sphere,
     Square,
     Circle,
     velocity,
