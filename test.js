@@ -12,7 +12,6 @@ const mass1 = settings.environment[2].props[0].mass
 const mass2 = settings.environment[2].props[1].mass
 
 let result = forceBetween(mass1, mass2, 10)
-let result2 = showSettings()
 console.log(result)
-console.log(result2)
+console.log(showSettings().environment[2])
 console.log(sphere.volume())
