@@ -1,10 +1,13 @@
 const settings = require("../../../settings.json")
 
 class Sphere{
-    constructor(radius, mass){
+    constructor(radius, mass, x, y, z){
         this.radius = radius
         this.mass = mass
         this.environment = settings.environment
+        this.x = x
+        this.y = y
+        this.z = z
         if(settings.environment[1].objects === false){
             console.log({ status : "Error", message : "Please create a Space first!"})
         }
@@ -16,7 +19,11 @@ class Sphere{
         settings.environment[2].props.push({
             prop : "Sphere",
             radius : this.radius,
-            mass : this.mass
+            mass : this.mass,
+            density : this.mass / ( 4/3 * settings.pi * this.radius ** 3 ),
+            x : this.x,
+            y : this.y,
+            z : this.z
         })
     }
 
