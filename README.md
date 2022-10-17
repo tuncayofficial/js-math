@@ -1,3 +1,6 @@
+[![Node.js Package](https://github.com/tuncayofficial/js-math/actions/workflows/npm-publish-github-packages.yml/badge.svg?event=release)](https://github.com/tuncayofficial/js-math/actions/workflows/npm-publish-github-packages.yml)
+
+
 <h1 align="center">Welcome to @tuncayofficial/js-math 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/@tuncayofficial/js-math" target="_blank">
