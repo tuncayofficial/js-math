@@ -1,4 +1,5 @@
 [![Node.js Package](https://github.com/tuncayofficial/js-math/actions/workflows/npm-publish-github-packages.yml/badge.svg?event=release)](https://github.com/tuncayofficial/js-math/actions/workflows/npm-publish-github-packages.yml)
+[![Node.js CI](https://github.com/tuncayofficial/js-math/actions/workflows/node.js.yml/badge.svg)](https://github.com/tuncayofficial/js-math/actions/workflows/node.js.yml)
 
 
 <h1 align="center">Welcome to @tuncayofficial/js-math 👋</h1>
