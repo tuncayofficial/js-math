@@ -5,7 +5,7 @@
 <h1 align="center">Welcome to @tuncayofficial/js-math 👋</h1>
 <p>
   <a href="https://github.com/tuncayofficial/js-math/pkgs/npm/js-math" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@tuncayofficial/js-math.svg">
+    <img alt="Version" src="https://img.shields.io/npm/v/@toundjay/js-math.svg">
   </a>
   <a href="https://github.com/tuncayofficial/js-math/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
