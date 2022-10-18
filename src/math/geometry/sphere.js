@@ -1,7 +1,8 @@
 const settings = require("../../../settings.json")
 
 class Sphere{
-    constructor(radius, mass, x, y, z){
+    constructor(name, radius, mass, x, y, z){
+        this.name = name
         this.radius = radius
         this.mass = mass
         this.environment = settings.environment
@@ -18,6 +19,7 @@ class Sphere{
         }
         settings.environment[2].props.push({
             prop : "Sphere",
+            name : this.name,
             radius : this.radius,
             mass : this.mass,
             density : this.mass / ( 4/3 * settings.pi * this.radius ** 3 ),
