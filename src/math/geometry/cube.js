@@ -1,4 +1,5 @@
 const settings = require("../../../settings.json")
+const Molecular = require("../../physics/molecular")
 
 class Cube{
     constructor(name, side, mass, x, y, z){
@@ -25,7 +26,8 @@ class Cube{
             density : this.mass / this.side ** 3,
             x : this.x,
             y : this.y,
-            z : this.z
+            z : this.z,
+           // m0 : 
         })
     }
 
